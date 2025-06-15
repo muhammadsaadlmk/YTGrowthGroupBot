@@ -6,6 +6,7 @@ from telegram.ext import (
 import json, os
 
 # === CONFIGURATION ===
+import os
 TOKEN = os.getenv("TOKEN")
 OWNER_USERNAME = "muhammadsaadlmk"
 GROUP_USERNAME = "@ytgrowthgroup"
