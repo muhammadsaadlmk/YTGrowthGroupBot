@@ -1,0 +1,44 @@
+🟢 1. Open Project Folder in VS Code
+Open the folder where you saved this Python file (e.g., main.py) in VS Code.
+
+🟢 2. Create & Activate Virtual Environment
+In the VS Code terminal, run:
+
+
+
+
+python -m venv venv
+
+Then activate it:
+
+
+
+
+venv\Scripts\activate
+
+Once activated, you’ll see (venv) in the terminal line.
+
+🟢 3. Install Required Library
+Use this command to install python-telegram-bot version 20.8:
+
+
+
+
+pip install python-telegram-bot==20.8
+
+🟢 4. Run the Bot
+Now simply run your bot:
+
+
+
+
+python main.py
+
+If your filename is different, replace main.py with your file name.
+
+✅ Confirm These Before Testing
+Make sure your bot is added as admin in your group @msytgroup.
+
+Ensure the group is public, not private.
+
+Bot should have permission to see group members.
