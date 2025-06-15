@@ -95,3 +95,5 @@ app.add_handler(MessageHandler(filters.Regex(r"^/send\\d+$"), send_to_group))
 app.add_handler(MessageHandler(filters.Regex(r"^/senduser\\d+$"), send_first_link))
 
 app.run_polling()
+if __name__ == "__main__":
+    app.run_polling()
