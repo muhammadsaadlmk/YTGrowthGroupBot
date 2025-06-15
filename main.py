@@ -6,8 +6,7 @@ from telegram.ext import (
 import json, os
 
 # === CONFIGURATION ===
-import os
-TOKEN = os.getenv("TOKEN")
+TOKEN = "7848662149:AAHJN54IL2xbbqc2qJLTSZf36TVUI4EHVGU"
 OWNER_USERNAME = "muhammadsaadlmk"
 GROUP_USERNAME = "@ytgrowthgroup"
 DATA_FILE = "user_links.json"
